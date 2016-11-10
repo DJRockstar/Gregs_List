@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+
+nav {
+	width: 100%;
+	margin:0;
+	background-color: #eceecf;
+	padding: 0px;
+	text-align: right;
+	position: relative;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+
+}
+
+.account {
+	margin-right: 15px;
+}
+
+.post {
+	margin-right: 10px;
+}
+
+.company-name {
+	position: absolute;
+	left: 20px;
+}
+
+a.nav-item {
+	text-decoration: none;
+	color: purple;
+}
+
+.nav-item:hover {
+	font-size: 22px;
+	color: yellowgreen;
+}
+
+.search-box {
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.search {
+	width: 450px;
+	height: 26px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+.mag-glass {
+	display: inline-block;
+	width: 24px;
+	height: 26px;
+	position: relative;
+	top: 8px;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.prev,.next,.job-display {
+	border: 1px solid lightgrey;
+	margin-right: -6px;
+	border-radius: 2px;
+	padding: 10px;
+	position: relative;
+	left: -40px;
+	margin-top: 20px;
+	color: black;
+	font-size: 15px;
+}
+
+.job-listing { 
+	width: 38%;
+}
+
+.dates {
+	color: grey;
+}
+
+.jobs {
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
+	margin: 0 8px;
+}
+
+.city {
+	color: grey;
+}
+
+.dates,.jobs,.city {
+	position: relative;
+	left: -40px;
+}
+
+
+
+
+
+
+
+
